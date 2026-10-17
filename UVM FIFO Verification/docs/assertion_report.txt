@@ -1,0 +1,23 @@
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /FIFO_top/DUT/sva_inst
+=== Design Unit: work.FIFO_sva
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Assertions                      11        11         0   100.00%
+
+=================================================================================
+=== Instance: /FIFO_seq_pkg
+=== Design Unit: work.FIFO_seq_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Assertions                       4         4         0   100.00%
+
+
+TOTAL ASSERTION COVERAGE: 100.00%  ASSERTIONS: 15
+
+Total Coverage By Instance (filtered view): 100.00%
+

@@ -1,0 +1,156 @@
+Coverage Report by DU with details
+
+=================================================================================
+=== Design Unit: work.FIFO
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        28        28         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for Design Unit work.FIFO
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FIFO.sv
+------------------------------------IF Branch------------------------------------
+    18                                     10406     Count coming in to IF
+    18              1                        578     
+    23              1                       4564     
+    29              1                       5264     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    31                                      5264     Count coming in to IF
+    31              1                       2370     
+    33              1                       2894     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    39                                     10406     Count coming in to IF
+    39              1                        578     
+    43              1                       2905     
+                                            6923     All False Count
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    50                                      8820     Count coming in to IF
+    50              1                        575     
+    53              1                       8245     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    54                                      8245     Count coming in to IF
+    54              1                       3094     
+    56              1                        821     
+    58              1                       1820     
+                                            2510     All False Count
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    59                                      1820     Count coming in to IF
+    59              1                        104     
+    60              1                        718     
+                                             998     All False Count
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    66                                     10406     Count coming in to IF
+    66              1                        578     
+    68              1                        162     
+    70              1                       9666     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    74                                      5015     Count coming in to IF
+    74              1                       1089     
+    74              2                       3926     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    75                                      5015     Count coming in to IF
+    75              1                        348     
+    75              2                       4667     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    77                                      5015     Count coming in to IF
+    77              1                       1359     
+    77              2                       3656     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    78                                      5015     Count coming in to IF
+    78              1                        401     
+    78              2                       4614     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      30        30         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for Design Unit work.FIFO --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FIFO.sv
+    17              1                      10406     
+    19              1                        578     
+    20              1                        578     
+    21              1                        578     
+    24              1                       4564     
+    25              1                       4564     
+    26              1                       4564     
+    27              1                       4564     
+    30              1                       5264     
+    32              1                       2370     
+    34              1                       2894     
+    38              1                      10406     
+    40              1                        578     
+    41              1                        578     
+    44              1                       2905     
+    45              1                       2905     
+    49              1                       8820     
+    51              1                        575     
+    55              1                       3094     
+    57              1                        821     
+    59              1                        104     
+    60              1                        718     
+    65              1                      10406     
+    67              1                        578     
+    69              1                        162     
+    71              1                       9666     
+    74              1                       5016     
+    75              1                       5016     
+    77              1                       5016     
+    78              1                       5016     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         20        20         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for Design Unit work.FIFO
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                        count[0-3]           1           1      100.00 
+                                       rd_ptr[0-2]           1           1      100.00 
+                                       wr_ptr[0-2]           1           1      100.00 
+
+Total Node Count     =         10 
+Toggled Node Count   =         10 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (20 of 20 bins)
+
+
+Total Coverage By Design Unit (filtered view): 100.00%
+
